@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UltraMinimal Website</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  section {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  .about, .products, .services {
+    background-color: #f4f4f4;
+    padding: 2rem 0;
+  }
+  .contact-form {
+    background-color: #e0e0e0;
+    padding: 2rem 0;
+  }
+  .contact-form form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .contact-form button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .social-icon {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: #444;
+  }
+  .social-icon i {
+    display: block;
+  }
+  .social-icon:hover {
+    color: #999;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>UltraMinimal</h1>
+      <p>Your Go-To Place for Minimalist Solutions</p>
+    </div>
+  </header>
+  
+  <section class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are dedicated to providing you with the finest minimalist products and services, designed to simplify and enhance your lifestyle.</p>
+    </div>
+  </section>
+  
+  <section class="products">
+    <div class="container">
+      <h2>Products</h2>
+      <p>Explore our carefully curated selection of minimalist products.</p>
+    </div>
+  </section>
+  
+  <section class="services">
+    <div class="container">
+      <h2>Services</h2>
+      <p>Discover our range of minimalist services designed to simplify your life.</p>
+    </div>
+  </section>
+  
+  <section class="contact-form">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 UltraMinimal. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
